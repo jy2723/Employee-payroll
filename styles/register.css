@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 20px 50px 20px;
+    display: flex;
+}
+
+.header1 {
+    color: #82A70C;
+}
+
+#data {
+    color: darkgreen;
+}
+
+.main {
+    background-color: #f4f4f4;
+    padding: 10px 50px 100px 50px;
+    align-items: center;
+}
+
+.emp {
+    width: 100%;
+    max-width: 540px;
+    background: #fff;
+    margin: 100px auto 100px;
+    padding: 50px 50px 50px 50px;
+    border-radius: 5px;
+    box-shadow:  3px 3px 3px 3px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    transform-origin: bottom;
+    zoom: 1.05;
+}
+
+#username {
+    box-sizing: border-box;
+    padding-right: 60px;
+    /*float: left; */
+}
+
+#name {
+    width: 300px;
+}
+
+#pi {
+    padding-right: 10px;
+}
+
+.gender {
+    padding-right: 49px;
+}
+
+
+.dept {
+    padding-right: 21px;
+    
+}
+
+.salary {
+    padding-right: 75px;
+}
+
+.date {
+    padding-right: 50px;
+}
+
+#note {
+    padding-right: 60px;
+    position: relative;
+    bottom: 0px;
+}
+
+#notes {
+    width: 350px;
+    height: 75px;
+}
+
+
+.buttons {
+    display: flex;
+    padding: 5px;
+}
+
+#submit {
+    margin-left: 250px;
+    padding: 5px;
+}
+
+#reset {
+    margin-left: 10px;
+    padding: 5px;
+}
+
+#cancel {
+    padding: 5px;
+}

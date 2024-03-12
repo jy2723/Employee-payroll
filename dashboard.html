@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Employee Payroll</title>
+    <link rel="stylesheet" href="styles/dashboard.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="top-box ">
+        <div class="header">
+            <img src="assets/logo.jpg" alt="logo" width="50px" height="50px">
+            <p id="data"><span class="header1">EMPLOYEE</span><br>PAYROLL</p>
+        </div>
+    </div>
+    <div class="bgc">
+        <div class="d-flex flex-column justify-content-center text-start">
+            <div class="middle-box">
+                <div class="middle-box1 flex-row justify-content-center text-start">
+                    <p class="emp"><b>Employee Details</b></p>
+                    <div class="icon d-flex flex-row justify-content-center text-start" style="clip-path: circle();">
+                        <i class="ri-search-line"></i>
+                    </div>
+                    <a href="register.html"><p class="user">Add User</p></a>
+                </div>
+            </div>
+            <div class="box d-flex flex-column justify-content-center text-start">
+                    <table class="table" id="table">
+                        <thead class="table1">
+                            <th>image</th>
+                            <th>NAME</th>
+                            <th>GENDER</th>
+                            <th>DEPARTMENT</th>
+                            <th>SALARY</th>
+                            <th>STARTDATE</th>
+                            <th>ACTIONS</th>
+                        </thead>
+                        <table>
+                            <tr>
+                                <td class="image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx4sKLKw2NRQTZgWlMgy6ZlBrY9TTTr1zMObLZeV73vQ&s" alt="women_img_1" width="40px" style="clip-path: circle();"></td>
+                                <td class="table-name">Amarpa</td>
+                                <td class="table-gender">Female</td>
+                                <td id="table-sales">Sales</td>
+                                <td id="table-salary">10,000</td>
+                                <td id="table-date">11 Mar 2024</td>
+                                <td id="actions">Delete | Edit</td>
+                            </tr>
+                            <tr id="emp-data">
+                                <td class="image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpaVKbSa1QadC1GsXFwQML4kK6JxihiQ4_2n602HKUnQ&s" alt="men_image_1" width="40px" style="clip-path: circle();"></td>
+                                <td class="table-name">Yashwanth</td>
+                                <td class="table-gender">Male</td>
+                                <td id="table-sales">Sales</td>
+                                <td id="table-salary">10,000</td>
+                                <td id="table-date">11 Mar 2024</td>
+                                <td id="actions">Delete | Edit</td>
+                            </tr>
+                        </table>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
