@@ -19,7 +19,7 @@
 
 .main {
     background-color: #f4f4f4;
-    padding: 10px 50px 100px 50px;
+    padding: 2px 50px 50px 50px;
     align-items: center;
 }
 
@@ -86,6 +86,7 @@
 }
 
 #submit {
+    background-color: cornsilk;
     margin-left: 250px;
     padding: 5px;
 }
@@ -97,4 +98,14 @@
 
 #cancel {
     padding: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .emp {
+        padding: 30px;
+    }
+    
+    #submit {
+        margin-left: auto; 
+    }
 }
